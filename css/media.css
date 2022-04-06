@@ -1,0 +1,39 @@
+@media (max-width:768px){
+    nav{
+        text-align: center;
+    }
+    nav a{
+        margin: 0 16px 16px 16px;
+    }
+    .header__elements{
+        flex-direction: column;
+    }
+    .header__info{
+        text-align: center;
+        margin-top: 40px;
+        width: 90%;
+    }
+    header{
+        padding: 150px 0 100px 0;
+    }
+    .profile__elements{
+        flex-direction: column-reverse;
+    }
+    .profile__item{
+        width: 80%;
+        margin: 0 auto 30px auto;
+    }
+    .profile__content{
+        width: 90%;
+        text-align: center;
+        width: 100%;
+    }
+}
+@media (max-width:425px){
+    .inputs{
+        flex-direction: column;
+    }
+    input{
+        width: 100%;
+    }
+}
